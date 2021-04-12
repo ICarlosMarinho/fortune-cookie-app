@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background: rgb(255,91,91);
+    background: linear-gradient(0, rgba(255,91,91,1) 0%, rgba(255,10,10,1) 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

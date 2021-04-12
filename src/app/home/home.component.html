@@ -1,0 +1,10 @@
+<h1 class="app-name">Fortune Cookie App</h1>
+<div class="message-area">
+  <p class="message-text">{{ message }}</p>
+</div>
+<form [formGroup]="group">
+  <select formControlName="categoryValue">
+    <option *ngFor="let item of category">{{ item }}</option>
+  </select>
+  <button type="button" (click)="getNewText()">Get new</button>
+</form>

@@ -1,0 +1,48 @@
+:host {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+}
+
+.app-name {
+  color: #fff;
+}
+
+.message-area {
+  background-color: #fff;
+  min-width: 60%;
+  max-width: 80%;
+  min-height: 20%;
+  box-shadow: inset 0 0 10px #ababab;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+  padding: 10px;
+}
+
+.message-text {
+  color: #262626;
+}
+
+form {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+button,
+select {
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
